@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/hcmiu_logo.png">
+
+    <style>
+        body {
+            font-family: 'Montserrat';
+            margin: 0;
+            padding: 0;
+            background-color: #d5f4e6;
+        }
+        header {
+            background: #618685;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            background: #74b3c7;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            background-color: #07628f;
+        }
+        .frame{
+            padding: 30px;
+            max-width: 700px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #07628f;
+        }
+        .work-text{
+            font-size: 20px;
+        }
+        .projects {
+            margin-top: 20px;
+        }
+        .project-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            flex: 1;
+        }
+        .project-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .project-icon img {
+            width: 40px;
+            height: 40px;
+        }
+        .project-text a {
+            font-weight: bold;
+            color: #07628f;
+            text-decoration: none;
+        }
+        .project-text a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="frame">
+        <h1>My Work</h1>
+        <p class="work-text">These are some of my past projects at school</p>
+        
+        <div class="projects">
+            <div class="project-item">
+                <div class="project-icon">
+                    <img src="./images/github-icon.png" alt="GitHub">
+                    <strong>GitHub</strong>
+                </div>
+                <div class="project-text">
+                    <a href="https://github.com/KhoiDang1209/AI-Shopping-System" target="_blank">AI Shopping System</a>
+                    <p class="des-text">AI Shopping System is an e-commerce platform with personalized product recommendations based on user behavior.</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-icon">
+                    <img src="./images/github-icon.png"  alt="GitHub">
+                    <strong>GitHub</strong>
+                </div>
+                <div class="project-text">
+                    <a href="https://github.com/ThiNVN/Data-Mining-Framework" target="_blank">Data Mining Framework</a>
+                    <p class="des-text">Data Mining Framework is a Java project comparing different frameworks for performance and usability.</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-icon">
+                    <img src="./images/github-icon.png"  alt="GitHub">
+                    <strong>GitHub</strong>
+                </div>
+                <div class="project-text">
+                    <a href="https://github.com/Theanh0410/TaskDatabase" target="_blank">Task Database</a>
+                    <p class="des-text">Task Database is a Kanban-based app for organizing tasks and tracking progress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; The Anh</p>
+    </footer>
+</body>
+</html>

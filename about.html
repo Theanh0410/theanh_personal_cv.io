@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/hcmiu_logo.png">
+
+    <style>
+        body {
+            font-family: 'Montserrat';
+            margin: 0;
+            padding: 0;
+            background-color: #d5f4e6;
+        }
+        header {
+            background: #618685;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            background: #74b3c7;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            background-color: #07628f;
+        }
+        .frame{
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #07628f;
+        }
+        .about-text {
+            font-size: 20px;
+        }
+        .interests {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .interest-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 20px;
+            flex: 1;
+        }
+        .interest-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .interest-icon img {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="frame">
+        <h1>About Me</h1>
+        <p class="about-text">I am a third-year IT student at <a href="https://hcmiu.edu.vn/" target="_blank">Vietnam National University HCMC International University</a></p>
+
+        <h2>Interest</h2>
+        <div class="interests">
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <img src="./images/console-controller.png" alt="Game">
+                    <strong>Game</strong>
+                </div>
+                <div>I enjoy playing and analyzing video games, exploring different genres, and understanding game mechanics.</div>
+            </div>
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <img src="./images/swimmer.png" alt="Sport">
+                    <strong>Swimming</strong>
+                </div>
+                <div>Swimming helps me stay active and refreshed, providing a great balance between physical fitness and relaxation.</div>
+            </div>
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <img src="./images/icons8-aquarium-100.png" alt="Aquarium">
+                    <strong>Aquarium</strong>
+                </div>
+                <div class="interest-text">I love observing and caring for aquatic life, as it brings a sense of peace and appreciation for marine ecosystems.</div>
+            </div>
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <img src="./images/book-bookmark.png" alt="Self-Learning">
+                    <strong>Self-Learning</strong>
+                </div>
+                <div class="interest-text">I am passionate about continuous learning, constantly exploring new topics and skills beyond my university curriculum.</div>
+            </div>
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <img src="./images/blog.png" alt="Blog">
+                    <strong>Blog</strong>
+                </div>
+                <div class="interest-text">Writing blogs allows me to share my thoughts, experiences, and knowledge with a broader audience.</div>
+            </div>
+        </div>
+    </section>   
+
+    <footer>
+        <p>&copy; The Anh</p>
+    </footer>
+</body>
+</html>

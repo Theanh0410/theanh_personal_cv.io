@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/hcmiu_logo.png">
+
+    <style>
+        body {
+            font-family: 'Montserrat';
+            margin: 0;
+            padding: 0;
+            background-color: #d5f4e6;
+        }
+        header {
+            background: #618685;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            background: #74b3c7;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            background-color: #07628f;
+        }
+        .frame {
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 20px;
+            flex: 1;
+        }
+        .contact-info a {
+            color: #07628f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+        input[type="submit"] {
+            background: #74b3c7;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        input[type="submit"]:hover {
+            background: #07628f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="frame">
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +84-981134979</p>
+            <p><strong>Email:</strong> <a href="mailto:ITCSIU22009@student.hcmiu.edu.vn">ITCSIU22009@student.hcmiu.edu.vn</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/Theanh0410" target="_blank">https://github.com/Theanh0410</a></p>
+        </div>
+        
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; The Anh</p>
+    </footer>
+</body>
+</html>

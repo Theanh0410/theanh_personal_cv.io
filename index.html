@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/hcmiu_logo.png">
+
+    <style>
+        body {
+            font-family: 'Montserrat';
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #d5f4e6;
+        }
+        .frame {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+        h1 {
+            color: #07628f;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 30px;
+        }
+        .pf-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        img {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 5px solid #80ced6;
+        }
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 300px);
+            grid-gap: 30px;
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 180px;
+            background-color: #80ced6;
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            border-radius: 20px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #07628f;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+    </header>
+    
+    <section id="home" class="frame">
+        <div class="pf-container">
+            <img src="./images/profile.jpg" alt="Profile Picture">
+            <h1>Trịnh Vũ Thế Anh</h1>    
+        </div>
+        <div class="buttons">
+            <a href="about.html" class="btn">About Me</a>
+            <a href="portfolio.html" class="btn">My Work</a>
+            <a href="blog.html" class="btn">Blog</a>
+            <a href="contact.html" class="btn">Contact</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; The Anh</p>
+    </footer>
+</body>
+</html>
